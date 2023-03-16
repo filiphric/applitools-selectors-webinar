@@ -1,9 +1,21 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": ["es5", "dom"],
-    "types": ["cypress", "node"],
-    "baseUrl": "./"
+    "lib": [
+      "es5",
+      "dom"
+    ],
+    "types": [
+      "cypress",
+      "node",
+      "@applitools/eyes-cypress"
+    ],
+    "baseUrl": "./",
+    "paths": {
+      "@scripts": [
+        "cypress/scripts/*"
+      ]
+    }
   },
   "include": [
     "**/*.ts"
