@@ -1,0 +1,20 @@
+{
+  "name": "applitools-selectors-webinar",
+  "version": "1.0.0",
+  "scripts": {
+    "cy:open": "./node_modules/.bin/cypress open",
+    "cy:run": "./node_modules/.bin/cypress run",
+    "postinstall": "cd trelloapp && npm install -s",
+    "start": "cd trelloapp && npm start"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Filip Hric (https://filiphric.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.15.3",
+    "cypress": "^12.8.0",
+    "typescript": "^4.9.5"
+  }
+}
